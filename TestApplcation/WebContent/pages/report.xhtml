@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	
+ <style>
+.public-event1{
+    background: #008000 !important;
+    color: black;
+    border-color: greenyellow;
+}
+.onlineEvent {
+border-color: #F00; 
+background-color: #F00;
+color: #fff;
+}
+
+div.completed {  
+    background: #1AA11A none !important;
+    border-color: #136e13 !important;
+}  
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title><ui:insert name="pageTitle">
+			<h:outputText value="Calender"></h:outputText>
+		</ui:insert></title>
+</h:head>
+
+<h:body>
+
+	<p:outputLabel value="#{basicTimelineView.helloWorld}"></p:outputLabel>
+	
+	
+	<p:growl id="growl" showSummary="true" showDetail="true" autoUpdate="true"/> 
+ 
+
+	
+</h:body>
+</html>
